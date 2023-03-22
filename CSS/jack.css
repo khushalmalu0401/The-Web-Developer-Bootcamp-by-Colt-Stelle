@@ -1,0 +1,17 @@
+h2{
+    text-align: center;
+    font-weight: 900;
+    text-decoration: #f12525  underline;
+    /* text-decoration: underline;
+    text-decoration: overline; */
+    letter-spacing: 8px;
+    font-size: 50px;
+    font-family: Candara,Arial;
+}
+a{
+    text-decoration: none;
+}
+p{
+    /* line height: gives me the line spacing between two lines */
+    line-height: 200%;
+}

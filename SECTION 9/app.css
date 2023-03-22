@@ -1,0 +1,12 @@
+section{
+    color: aqua;
+    background-color: pink;
+    width: 50%;
+    height: 50%;
+}
+#rgba{
+    height: fit-content;
+    width: auto;
+    color: black;
+
+}

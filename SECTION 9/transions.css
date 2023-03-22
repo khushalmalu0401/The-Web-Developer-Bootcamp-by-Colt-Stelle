@@ -1,0 +1,13 @@
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    /* Transion is the time after which the hoveer will take place here it takes 2 seconds to transit/ hover */
+    /* In transition we can even change the transition background-color for which only bg color will take the transition time */
+    /* transition: 2s;   */
+    transition: background-color 3s;
+}
+.circle:hover{
+    background-color: bisque;
+    border-radius: 15px;
+}

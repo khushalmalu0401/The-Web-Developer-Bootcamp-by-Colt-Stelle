@@ -1,0 +1,53 @@
+/* working with styles by adjusting boxes using height & pixels */
+div{
+    /*as i have selected onl div so the section tag will not get this property do chk it*/
+    width: 250px;
+    height: 250px;
+    background-color: beige;
+}
+section{
+    width: 250px;
+    height: 250px;
+    background-color: beige;
+}
+/* border-width,border-color,border-style(The sequence is much important or else output will not be reflected) */
+#one{
+    background-color: yellow;
+    border-width: 3px;
+    border-color: brown;
+    border-style:groove;
+    /* box-sizing: border-box; */
+}
+#two{
+    height: 80px;
+    background-color: pink;
+    border-width: 5px;
+    border-color: black;
+    border-style:dotted;
+    border-left-color: yellowgreen;
+}
+#three{
+    background-color: azure;
+    border-width: 7px;
+    border-color: violet;
+    border-style: inset;
+    border-radius: 10%;
+
+}
+/* padding is the distance between content and the box layout */
+h3{
+    width: 250px;
+    color: grey;
+    background-color: black;
+    padding-left: 100px;
+}
+/*margin is used to space the text between(understand how it is used)*/
+#two{
+    height: 80px;
+    background-color: pink;
+    border-width: 5px;
+    border-color: black;
+    border-style:dotted;
+    border-left-color: yellowgreen;
+    margin: 40px;
+}

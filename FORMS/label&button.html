@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labels in html </title>
+</head>
+
+<body>
+    <!-- Placeholder is used to add text so that user would know what to type in that box -->
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter username:</label>
+            <input id="username" type="text" placeholder="enter username" name = "username">
+        </p>
+        <p>
+            <label for="password">Enter password</label>
+            <input id ="password" type="password" placeholder="enter password" name = "password">
+        </p>
+        <p>
+            <label for="color">Select Color</label>
+            <input id = "color" type="color" name = "color">
+        </p>
+        <p>
+            <label for="time">Enter Time</label>
+            <input id ="time"type="time" name = "time">
+        </p>
+        <p>
+            <label for="range">Enter Range</label>
+            <input id = "range" type="range" name = "range">
+        </p>
+        <button>Submit</button>
+    </form>
+
+    <hr>
+    <button>This will not submit form</button>
+</body>
+
+</html>

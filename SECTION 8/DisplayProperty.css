@@ -1,0 +1,11 @@
+h1{
+    background-color: aquamarine;
+    /*If i put display inline they are placed line by line or else default they are placed in block*/
+    display: inline;
+}
+span{
+    background-color: bisque;
+    /*If i put display block they are placed line below line or else default they are placed inline*/
+    display: block;
+
+}

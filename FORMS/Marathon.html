@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Marathon Registration Form</title>
+<style>
+    h3{
+        color: pink;
+    }
+</style>
+</head>
+
+
+<body>
+    <h3>Welcome to Marathon Event , Please fill the Form to Register</h3>
+    <form action="/bug">
+        <p>
+
+            <label for="Full Name">Full Name</label>
+            <input type="text" name="Full Name" id="Full Name" required>
+        </p>
+        <p>
+            <label for="number">Contact Details</label>
+            <input type="text" name="Contact" id="number" min="10" max="10" required>
+        </p>
+        <div>
+            <label for="Select Age Group">Age Group</label>
+            <select name="Age" id="Select Age Group" required>
+            <option value="">Please choose your age Group</option>
+            <option value="0-18">0-18</option>
+            <option value="18-44">18-44</option>
+            <option value="45+">45+</option>
+        </select>
+        </div>
+        <p>
+            <label for="mail">Email</label>
+            <input type="email" name="Email" id="mail" required>
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </p>
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>

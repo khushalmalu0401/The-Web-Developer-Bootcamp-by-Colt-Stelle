@@ -1,0 +1,11 @@
+section{
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+    /* center/50% will add as many number of images required for the site to overlap for it will center the image but the / is important */
+    background-size: center/cover url('https://empxtrack.com/wp-content/uploads/2013/06/recruitment-and-selection.jpg'), blueviolet;
+}
+h1{
+    color: brown;
+    font-size: 100px;
+}

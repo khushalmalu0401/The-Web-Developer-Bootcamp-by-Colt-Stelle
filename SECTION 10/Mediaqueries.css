@@ -1,0 +1,10 @@
+/*When you resize the window or move the screen side by side or up-down after these after the maximum limit the color changes as we can see by opening it in live server*/
+@media(max-width: 800px){
+    h1{
+        color: aqua;
+        background-color: bisque;
+    }
+}
+body{
+    text-align: center;
+}

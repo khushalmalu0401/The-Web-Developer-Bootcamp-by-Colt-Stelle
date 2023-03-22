@@ -1,0 +1,47 @@
+ /* *{
+    background-color: yellow;
+    color: black;
+} 
+
+#Khushal{
+    background-color: bisque;
+    color: black;
+}
+.new{
+    color: #1d3557;
+    background-color: #f1faee;
+} */
+a{
+    color: black;
+}
+h2{
+    color: blue;
+}
+h2{
+    color:aqua;
+}
+input[type="password"]{
+    color: rgb(240, 56, 0);
+}
+a:hover{
+    color: #0077b6;
+    background-color: #caf0f8;
+}
+a:active{
+    background-color: #ffba08;
+}
+h2::first-letter{
+    font-size: 58px;
+}
+#yu{
+    color :rgb(240, 56, 0);
+}
+/* if i don't use p i just use ::selection then it will be applied to whole document
+after selecting the document we get the highlighted color */
+p::selection{
+    background-color: yellow;
+}
+
+button:hover{
+    font-size: 25px;
+}
